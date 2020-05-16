@@ -6,10 +6,11 @@
   "scripts": {
     "clean": "rimraf css",
     "toCSS": "node-sass --output-style expanded --source-map=true scss -o css",
+    "concat": "concat --output=css/style.css css/accueil.css css/propos.css css/activites.css css/destinations.css css/galerie.css css/evenement.css css/more.css",
     "toPrefixed": "postcss css/style.css --use=autoprefixer --map=false --output=css/style.css",
     "toMinified": "cleancss --level=1 --source-map --source-map-inline-sources --output css/style.min.css css/style.css",
     "watch": "npm run toCSS -- --watch",
-    "build": "npm run clean && npm run toCSS && npm run toPrefixed && npm run toMinified"
+    "build": "npm run clean && npm run toCSS && npm run concat && npm run toPrefixed && npm run toMinified && npm run watch"
   },
   "browserslist": [
     "last 4 versions"

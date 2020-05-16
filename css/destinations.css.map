@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "destinations.css",
+	"sources": [
+		"../scss/destinations.scss"
+	],
+	"names": [],
+	"mappings": ""
+}

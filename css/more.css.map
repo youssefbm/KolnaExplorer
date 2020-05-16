@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "more.css",
+	"sources": [
+		"../scss/more.scss"
+	],
+	"names": [],
+	"mappings": ""
+}
