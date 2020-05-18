@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "evenement.css",
+	"file": "contact.css",
 	"sources": [
-		"../scss/evenement.scss"
+		"../scss/contact.scss"
 	],
 	"names": [],
 	"mappings": ""

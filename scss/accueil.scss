@@ -25,20 +25,26 @@ body {
 
     & ul {
         width: 80%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        float: right;
         align-items: center;
-        justify-content: flex-end;
 
         & li {
             list-style: none;
             margin-right: 5%;
 
 
+
             & a {
                 text-decoration: none;
+                color: red;
             }
         }
+
+
     }
+}
+
+ul li ul li {
+    display: flex;
+    flex-direction: column;
 }
