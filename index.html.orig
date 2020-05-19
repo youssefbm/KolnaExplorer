@@ -38,9 +38,9 @@
         </div>
     </nav>
 
+<<<<<<< HEAD
 
-
-
+=======
     <!--------------------------------------------------------** 4 Section de Achraf**---------------------------------------------------------->
     <section class="rejoignezNous">
         <h1 class="rejoignezNous__quote">"Nature is not a place to visit. <span class="rejoignezNous__quote--color">It is home."</span></h1>
@@ -48,6 +48,11 @@
         <button class="rejoignezNous__button--membre">Devenir membre</button>
         <button class="rejoignezNous__button--contactez">Contactez nous</button>
     </section>
+>>>>>>> 7569773cc61b1bd25573b1b79845355b025dfeaf
+
+
+    <!--------------------------------------------------------** 4 Section de Achraf**---------------------------------------------------------->
+
     <script src="/js/script.js"></script>
 </body>
 
