@@ -240,3 +240,32 @@ ul li ul li {
     
 }
 // Rejoignez Nous version desktop FIN//
+
+
+// Partenaires version desktop //
+
+.partenaires{
+    background-color: $colorP;
+    padding: 40px 0px;
+    &__title{
+        text-align: center;
+        font-family: $fontT;
+        color: $colorW;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    &__wrapper{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        &--part{
+            margin-left: auto;
+            margin-right: auto;
+            width: 80px;
+        }
+    }
+
+}
