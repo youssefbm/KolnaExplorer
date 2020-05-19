@@ -45,4 +45,89 @@ ul li ul li {
   flex-direction: column;
 }
 
+.rejoignezNous__img {
+  background: url(/Assets/bg__quote.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.rejoignezNous__quote {
+  padding-top: 224px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+
+.rejoignezNous__quote--color {
+  color: #FF9C01;
+  text-transform: uppercase;
+}
+
+.rejoignezNous__para {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.rejoignezNous__button {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.rejoignezNous__button--membre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #698474;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rejoignezNous__button--membre:hover {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 4px solid;
+}
+
+.rejoignezNous__button--contactez {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  border: 4px solid;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rejoignezNous__button--contactez:hover {
+  background-color: #698474;
+  color: #FFFFFF;
+  border: 4px solid #698474;
+}
+
 /*# sourceMappingURL=accueil.css.map */
