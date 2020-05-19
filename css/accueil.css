@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.headerHero {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.menu {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu ul {
+  width: 80%;
+  float: right;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-right: 5%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+ul li ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=accueil.css.map */
