@@ -1,0 +1,48 @@
+@import "variables";
+.newsletterTop{
+    background-color: $colorS;
+    height:100px;
+}
+.newsletter {
+    margin-top: -40px;
+    height: 370px;
+    background-color: $colorS;
+    background-image: url(/Assets/bg__newsletter.png);
+    background-size: 100% ;
+    &__title{
+        text-align: center;
+        color: $colorW;
+        font-family: $fontT;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 64px;
+        &--input{
+            padding: 24px 40px;
+            border-radius: 80px;
+            border: none;
+            width: 180%;
+            font-family: $fontT;
+        }
+        &--abonner{
+            background-color: $colorP;
+            border: none;
+            color: $colorW;
+            font-family: $fontT;
+            padding: 24px 40px;
+            border-radius: 80px;
+            width: 80%;
+            margin-left: 80px;
+            cursor: pointer;
+        }
+    }
+}
+
+
