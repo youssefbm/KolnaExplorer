@@ -22,20 +22,34 @@
 
 <body>
     <!----------------------------------------------------** 4 Section de Mohammed**------------------------------------------------>
-    <div class="headerHero">
-        <div class="menu">
-            <img class="menu__logo" src="/Assets/Image 1.png" alt="">
-            <ul>
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="#">À propos de nous</a></li>
-                <li><a href="#">Nos Activités</a></li>
-                <li><a href="#">Destination</a></li>
-                <li><a href="#">Galerie</a></li>
-                <li><a href="#">Événements</a></li>
-                <li><a href="#">More</a></li>
-            </ul>
+
+    <nav>
+        <div class="logo">
+            <img class="logo__logo" src="/Assets/Image 1.png" alt="">
         </div>
-    </div>
+        <ul class="navMenu">
+            <li><a class="active" href="#">Acceuil</a></li>
+            <li><a href="#">À propos de nous</a></li>
+            <li class="active" id="act"><a href="#">Nos Activités</a>
+                <ul class="smenu">
+                    <li class="active"><a href="">Activités Principales</a></li>
+                    <li class="active"><a href="">Destination</a></li>
+                    <li class="active"><a href="">Events</a></li>
+                </ul>
+            </li>
+
+            <li class="active"><a href="#">Galerie</a></li>
+            <li class="active"><a href="#">Blog</a></li>
+            <li class="active"><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="burger__line1"></div>
+            <div class="burger__line2"></div>
+            <div class="burger__line3"></div>
+        </div>
+    </nav>
+
+
 
 
     <!--------------------------------------------------------** 4 Section de Achraf**---------------------------------------------------------->
@@ -114,7 +128,7 @@
     <section class="copyright">
         <h3>Copyright © 2020 Designed by <span>YouCode Students</span></h3>
     </section>
-
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
