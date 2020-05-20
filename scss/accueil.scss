@@ -489,3 +489,21 @@ ul li ul li {
 // 	color: #fff;
 // 	-webkit-text-fill-color: #fff;
 // }
+
+
+// Footer version desktop FIN //
+
+// Copyright version desktop //
+
+.copyright{
+    background-color: $colorA;
+    text-align: center;
+    font-family: $fontT;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.copyright span{
+    color: $colorY;
+    font-weight: bolder;
+}
