@@ -1,0 +1,29 @@
+.partenaires {
+  background-color: #698474;
+  padding: 40px 0px;
+}
+
+.partenaires__title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.partenaires__wrapper {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.partenaires__wrapper--part {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+
+/*# sourceMappingURL=Partenaire.css.map */
