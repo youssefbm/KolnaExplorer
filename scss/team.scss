@@ -1,0 +1,113 @@
+
+@import "variables";
+.team {
+    background-image: url("/Assets/bg1.png");
+    position: relative;
+    padding: 40px 0 46.5px;
+    text-align: center;
+    &__grid {
+
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__block {
+        margin-bottom: 40px;
+    }
+    &__title {
+        font-size: 40px;
+        font-family: $fontT;
+        color: $colorP;
+        margin-bottom: 40px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.team .team__block .team__box .box__image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: $colorP;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%, 0% 0%);
+
+}
+
+.team__block .team__box .box__image .social-links {
+    position: absolute;
+    left: -40px;
+    top: 15px;
+    opacity: 0;
+    transition: all 500ms ease;
+}
+
+.team__block:hover .team__box .box__image .social-links {
+
+    left: -16px;
+    opacity: 1;
+}
+
+.team__block .team__box .box__image .social-links li {
+    position: relative;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.team__block .team__box .box__image .social-links li:last-child {
+    margin-bottom: 0;
+}
+
+.team__block .team__box .box__image .social-links li a {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: $colorW;
+}
+
+.team__block .team__box .box__image img {
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.team__block .team__box:hover .box__image img {
+    opacity: 0.2;
+}
+
+.team__block .team__box .team__infos {
+    display: block;
+    background-color: $colorW;
+    border: 0.5px solid $colorD;
+    padding: 32px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -72px;
+}
+
+.team__block .team__box .team__infos h5 {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    color: $colorD;
+    font-family: $fontP;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.team__block .team__box .team__infos .post {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: $colorP;
+    font-family: $fontP;
+}
