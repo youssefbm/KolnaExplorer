@@ -1,0 +1,123 @@
+@import'variables';
+.contact{
+    font-family: $fontP;
+    max-width: $maxwidth;
+    margin-left: auto;
+    margin-right: auto;
+    &__title{
+        font-family: $fontT;
+        font-size: $sizeT;
+        text-transform: uppercase;
+        color: $colorP;
+        opacity: .5;
+    }
+    &__subtitle{
+        font-size: $sizeST;
+        font-family: $fontT;
+        color: $colorP;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 100%;
+        margin-top: 80px;
+    }
+}
+
+
+.wrapper{
+    &__tel{
+        grid-area: 1/1;
+        &--title{
+            font-size: 16px;
+            text-align: center;
+            font-family: $fontT;
+        }
+        &--icon{
+            width: 80px;
+            height: 80px;
+            margin-bottom: 8px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        &--para{
+            text-align: center;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6em;
+            font-weight: 300;
+        }
+        &--num{
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: $colorP;  
+            font-weight: 700;
+  
+        }
+    }
+    &__email{
+        grid-area: 1/2;
+        &--title{
+            font-size: 16px;
+            text-align: center;
+            font-family: $fontT;
+        }
+        &--icon{
+            width: 80px;
+            height: 80px;
+            margin-bottom: 8px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        &--para{
+            text-align: center;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6em;
+            font-weight: 300;
+        }
+        &--ema{
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: $colorP; 
+            font-weight: 700;
+        }
+    }
+    &__local{
+        grid-area: 1/3;
+        &--title{
+            font-size: 16px;
+            text-align: center;
+            font-family: $fontT;
+        }
+        &--icon{
+            width: 80px;
+            height: 80px;
+            margin-bottom: 8px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        &--para{
+            text-align: center;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6em;
+            font-weight: 300;
+        }
+        &--dest{
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: $colorP; 
+            font-weight: 700;
+        }
+    }
+}
