@@ -10,7 +10,7 @@
   font-size: 40px;
   text-transform: uppercase;
   color: #698474;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .contact__subtitle {
@@ -157,6 +157,18 @@
   }
   .wrapper__local {
     grid-area: 3/1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper__tel--para {
+    width: 90%;
+  }
+  .wrapper__email--para {
+    width: 90%;
+  }
+  .wrapper__local--para {
+    width: 90%;
   }
 }
 
