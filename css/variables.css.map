@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "variabels.css",
+	"file": "variables.css",
 	"sources": [
-		"../scss/variabels.scss"
+		"../scss/variables.scss"
 	],
 	"names": [],
 	"mappings": ""
