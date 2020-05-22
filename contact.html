@@ -11,6 +11,7 @@
     </head>
     <body>
         <section class="contact">
+            <!-- section top -->
             <h1 class="contact__title">contact</h1>
             <h3 class="contact__subtitle">Cras eu elit congue, placerat dui ut, tincidunt nisl.</h3>
             <div class="contact__wrapper">
@@ -35,6 +36,34 @@
                         class="wrapper__local--dest">View on Google map</a>
                 </div>
             </div>
+            <!-- section top END -->
+            <!-- section form -->
+            <div class="contact__container">
+            <div class="form">
+                <h4 class="form-title">Get In Touch !</h4>
+                <div id="message"></div>
+                <form
+                    method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                    <label>Your Name<span class="text-danger">*</span></label>
+                    <img src="/Assets/name.png" alt="personne">
+                    <input name="name" id="name" type="text" class="form-control pl-5" placeholder="First Name :">
+                    <label>Your Email<span class="text-danger">*</span></label>
+                    <img src="/Assets/gmail.png" alt="gmail">
+                    <input name="email"id="email" type="email" class="form-control pl-5" placeholder="Your email :">
+                    <label>Subject</label>
+                    <img src="/Assets/subject.png" alt="subject">
+                    <input name="subject" id="subject" type="text" class="form-control pl-5" placeholder="Subject">
+                    <label>Comments</label>
+                    <img src="/Assets/msg.png" alt="message">
+                    <textarea name="comments" id="comments" rows="4" class="form-control pl-5" placeholder="Your Message :"></textarea>
+                    <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary btn-block" value="Send Message">
+                    <div id="simple-msg"></div>
+                </form>
+            </div>
+            <div class="bgImg">
+                <img src="/Assets/bgcontact.png">
+            </div>
+        </div>
         </section>
     </body>
 </html>
