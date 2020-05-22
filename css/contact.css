@@ -134,4 +134,30 @@
   font-weight: 700;
 }
 
+@media only screen and (max-width: 575px) {
+  .contact {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  .contact__subtitle {
+    font-size: 16px;
+  }
+  .contact__wrapper {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 100%;
+  }
+  .wrapper__tel {
+    grid-area: 1/1;
+    padding-bottom: 240px;
+  }
+  .wrapper__email {
+    grid-area: 2/1;
+  }
+  .wrapper__local {
+    grid-area: 3/1;
+  }
+}
+
 /*# sourceMappingURL=contact.css.map */
