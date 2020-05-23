@@ -122,6 +122,76 @@
         }
     }
 }
+
+
+.contact{
+    &__container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        margin: 80px 0px;
+    }
+    &__label{
+        display: block;
+    }
+    &__form{
+        border: 1px solid;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.form{
+    &__label1{
+        grid-area: 1/1;
+        padding-bottom: 80px;
+        label{
+            display: block;
+        }
+    }
+    &__label2{
+        grid-area: 1/2;
+        label{
+            display: block;
+        }
+    }
+    &__label3{
+        grid-column: 1/3;
+        padding-bottom: 40px;
+        label{
+            display: block;
+        }
+    }
+    &__label4{
+        grid-column: 1/3;
+        padding-bottom: 80px;
+        label{
+            display: block;
+        }
+    }
+    &__btnSend{
+        grid-column: 4/1;
+    }
+}
+
+
+
+
+
+.bgImg img{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 // }
 // version DESKTOP END //
 
