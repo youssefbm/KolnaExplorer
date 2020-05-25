@@ -37,7 +37,6 @@
 }
 
 .wrapper__tel--icon {
-  width: 80px;
   height: 80px;
   margin-bottom: 8px;
   margin-left: auto;
@@ -73,7 +72,6 @@
 }
 
 .wrapper__email--icon {
-  width: 80px;
   height: 80px;
   margin-bottom: 8px;
   margin-left: auto;
@@ -109,7 +107,6 @@
 }
 
 .wrapper__local--icon {
-  width: 80px;
   height: 80px;
   margin-bottom: 8px;
   margin-left: auto;
@@ -270,8 +267,9 @@ form {
   padding: 16px;
   background-color: #698474;
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
 
@@ -302,13 +300,74 @@ form {
   }
   .wrapper__tel {
     grid-area: 1/1;
-    padding-bottom: 240px;
+    padding-bottom: 120px;
+    margin: auto;
   }
   .wrapper__email {
+    margin: auto;
     grid-area: 2/1;
+    padding-bottom: 120px;
   }
   .wrapper__local {
+    margin: auto;
     grid-area: 3/1;
+  }
+  .contact__container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 32% 68%;
+    margin: 80px 0px;
+  }
+  .contact__form {
+    grid-area: 2/1;
+    height: max-content;
+  }
+  .form__label1 {
+    margin-top: 20px;
+    display: block;
+    grid-area: 1/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__label1 input {
+    width: 100%;
+  }
+  .form__label2 {
+    margin-top: 20px;
+    display: block;
+    grid-area: 2/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__label2 input {
+    width: 100%;
+  }
+  .form__label3 {
+    margin-top: 20px;
+    display: block;
+    grid-area: 3/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__label3 input {
+    width: 100%;
+  }
+  .form__label4 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: block;
+    grid-area: 4/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__btnSend {
+    margin-top: 80px;
+  }
+  .bgImg {
+    margin: 0px;
+  }
+  .bgImg img {
+    width: 80%;
   }
 }
 
