@@ -572,7 +572,7 @@ body{
             }
         }
         
-        
+
         
         //::::::::::SECTION DEVENIR UN MEMBRE TABLETTE:::::::::::/
         
@@ -634,5 +634,238 @@ body{
         }
         
         
+
+           //:::::::::::::: version MOBILE::::::::::::::::://
+
+
+@media only screen and (max-width: $phone) {
+
+    .No-mission{
+        &__container{
+            grid-template-columns: 95%;
+            grid-template-rows: 5% 20% 1fr 10%;
+            padding: 0px;
+        &--title{
+             justify-content: center;
+             font-size: $sizeST;
+            &::before{
+                content: "";
+                flex: 0% 0;
+            }
+             &::after{
+                content: "";
+                flex: 0% 0;
+            }
+
+        }
+       &--description{
+        grid-column: 1;
+            grid-row: 3;
+           p{
+              text-align: center;
+              text-align: justify;
+              text-align-last: center;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 52px;
+          
+            }
+       }
+     
+       &--vid{
+          grid-column: 1;
+          grid-row: 2;
+          width: 90%;
+          height: auto;
+          margin-top: 25px;
+       }
+    }   
+ }
+
+
+
+ .Team{
+    background-color: $colorA;
+
+    &__title{
+        justify-content: center;
+        font-size: $sizeST;
+        &::before{
+            content: "";
+            flex: 0% 0;
+        }
+         &::after{
+            content: "";
+            flex: 0% 0;
+        }
+    }
+    &__container{
+        display: grid;
+        grid-template-columns: 95%;
+        grid-template-rows: repeat(6,1fr);
+        justify-content: center;
+        padding: 0px;
+        margin-top: 29%;
+        &--member-1{
+            grid-row: 1;
+            grid-column: 1;
+            margin-top: 19%;
+            img{
+                top: -110px;
+                left: 40.5px;
+            }
+        
+            p{
+                bottom: -120px;
+            }
+
+           
+            div{
+                bottom: -131px;
+            }
+        }
+        &--member-2{
+            grid-row: 2;
+            grid-column: 1;
+            margin-top: 24%;
+
+            img{
+                top: -110px;
+                left: 40.5px;
+            }
+
+            
+            p{
+                bottom: -120px;
+            }
+            div{
+                bottom: -131px;
+            }
+        }
+        &--member-3{
+            grid-row: 3;
+            grid-column: 1;
+            margin-top: 29%;
+            img{
+                top: -110px;
+                left: 40.5px;
+            
+            }
+            p{
+                bottom: -120px;
+            }
+            div{
+                bottom: -131px;
+            }
+        }
+        &--member-4{
+            grid-row: 4;
+            grid-column: 1;
+            margin-top: 35%;
+            img{
+                top: -110px;
+                left: 40.5px;
+            
+            }
+            p{
+                bottom: -120px;
+            }
+            div{
+                bottom: -131px;
+            }
+ }
+        &--member-5{
+            grid-row: 5;
+            grid-column: 1;
+            margin-top: 43%;
+            img{
+                top: -110px;
+                left: 40.5px;
+            }
+            
+            p{
+                bottom: -120px;
+            }
+            div{
+                bottom: -131px;
+            }
+        }
+        &--member-6{
+            grid-row: 6;
+            grid-column: 1;
+            margin-top: 50%;
+
+            img{
+                top: -110px;
+                left: 40.5px;
+            }
+            
+            p{
+                bottom: -120px;
+            }
+            div{
+                bottom: -131px;
+            }
+        }
+    
+ }
+}
+
+//::::::::::::SECTION devenir membre::::::::::::://
+
+
+.Dev-membre{
+    padding: 0px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 95%;
+        grid-template-rows: 10% 25% 1fr 10%;
+        justify-content: center;
+        &--title{
+            grid-row: 1;
+            text-align-last: center;
+            justify-content: center;
+            font-size: $sizeST;
+            &::before{
+                content: "";
+                flex: 0% 0;
+            }
+            &::after{
+                content: "";
+                flex: 0% 0;
+            }
+        }
+        &--para{
+            margin-top: 0px;
+            margin-bottom: 0;
+        }
+        &--img{
+
+            width: 95%;
+            height: auto;
+            margin-top: 6%;
+        }
+       
+        &--btn{
+            grid-row: 4;
+            width: 250px;
+            height: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 8%;
+
+            a{
+               font-size: 20px;
+            }
+        }
+    }
+
+}
+
+
+
+
+}
 
 
