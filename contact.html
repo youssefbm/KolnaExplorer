@@ -39,26 +39,34 @@
             <!-- section top END -->
             <!-- section form -->
             <div class="contact__container">
-            <div class="form">
-                <h4 class="form-title">Get In Touch !</h4>
+            <div class="contact__form">
+                <h4 class="contact__form--title">Entrer en contact!</h4>
                 <div id="message"></div>
                 <form
                     method="post" action="php/contact.php" name="contact-form" id="contact-form">
-                    <label>Your Name<span class="text-danger">*</span></label>
-                    <img src="/Assets/name.png" alt="personne">
-                    <input name="name" id="name" type="text" class="form-control pl-5" placeholder="First Name :">
-                    <label>Your Email<span class="text-danger">*</span></label>
-                    <img src="/Assets/gmail.png" alt="gmail">
-                    <input name="email"id="email" type="email" class="form-control pl-5" placeholder="Your email :">
-                    <label>Subject</label>
-                    <img src="/Assets/subject.png" alt="subject">
-                    <input name="subject" id="subject" type="text" class="form-control pl-5" placeholder="Subject">
-                    <label>Comments</label>
-                    <img src="/Assets/msg.png" alt="message">
-                    <textarea name="comments" id="comments" rows="4" class="form-control pl-5" placeholder="Your Message :"></textarea>
-                    <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary btn-block" value="Send Message">
-                    <div id="simple-msg"></div>
+                    <div class="form__label1">
+                            <label>Votre Nom<span class="text-danger"> *</span></label>
+                            <img src="/Assets/name.png" alt="personne">
+                            <input  name="name" id="name" type="text"  placeholder="First Name :">
+                    </div>
+                    <div class="form__label2">
+                            <label>Votre Email<span class="text-danger"> *</span></label>
+                            <img src="/Assets/gmail.png" alt="gmail">
+                            <input name="email"id="email" type="email"  placeholder="Your email :">
+                    </div>
+                    <div class="form__label3">
+                            <label>Sujet</label>
+                            <img src="/Assets/subject.png" alt="subject">
+                            <input name="subject" id="subject" type="text"  placeholder="Sujet">
+                    </div>
+                    <div class="form__label4">
+                            <label>Message</label>
+                            <img src="/Assets/msg.png" alt="message">
+                            <textarea name="comments" id="comments" rows="4"  placeholder="Votre Message :"></textarea>
+                    </div>
                 </form>
+                <input type="submit" id="submit" name="send" class="form__btnSend" value="Envoyer le message">
+                <div id="simple-msg"></div>
             </div>
             <div class="bgImg">
                 <img src="/Assets/bgcontact.png">

@@ -21,7 +21,7 @@
 
 .contact__wrapper {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33% 34% 33%;
   grid-template-rows: 100%;
   margin-top: 80px;
 }
@@ -37,7 +37,6 @@
 }
 
 .wrapper__tel--icon {
-  width: 80px;
   height: 80px;
   margin-bottom: 8px;
   margin-left: auto;
@@ -73,7 +72,6 @@
 }
 
 .wrapper__email--icon {
-  width: 80px;
   height: 80px;
   margin-bottom: 8px;
   margin-left: auto;
@@ -109,7 +107,6 @@
 }
 
 .wrapper__local--icon {
-  width: 80px;
   height: 80px;
   margin-bottom: 8px;
   margin-left: auto;
@@ -134,6 +131,159 @@
   font-weight: 700;
 }
 
+.contact__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  margin: 80px 0px;
+}
+
+.contact__label {
+  display: block;
+}
+
+.contact__form {
+  border: 1px solid;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+}
+
+.contact__form--title {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #698474;
+}
+
+.text-danger {
+  color: red;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.form__label1 {
+  grid-area: 1/1;
+}
+
+.form__label1 label {
+  font-weight: 700;
+  display: block;
+}
+
+.form__label1 img {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 11px;
+}
+
+.form__label1 input {
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+  padding-left: 40px;
+  height: 42px;
+  width: 90%;
+}
+
+.form__label2 {
+  grid-area: 1/2;
+}
+
+.form__label2 label {
+  font-weight: 700;
+  display: block;
+}
+
+.form__label2 img {
+  margin-top: 32px;
+  margin-left: 11px;
+  position: absolute;
+}
+
+.form__label2 input {
+  font-family: "Nunito", sans-serif;
+  padding-left: 40px;
+  height: 42px;
+  margin-top: 18px;
+  width: 100%;
+}
+
+.form__label3 {
+  margin-top: 20px;
+  grid-column: 1/3;
+}
+
+.form__label3 label {
+  font-weight: 700;
+  display: block;
+}
+
+.form__label3 input {
+  padding-left: 40px;
+  margin-top: 20px;
+  width: 100%;
+  height: 42px;
+}
+
+.form__label3 img {
+  margin-top: 28px;
+  margin-left: 11px;
+  position: absolute;
+}
+
+.form__label4 {
+  margin-top: 40px;
+  grid-column: 1/3;
+}
+
+.form__label4 label {
+  font-weight: 700;
+  display: block;
+}
+
+.form__label4 textarea {
+  padding-top: 12px;
+  padding-left: 40px;
+  padding-right: 24px;
+  margin-top: 20px;
+  width: 100%;
+  height: 120px;
+}
+
+.form__label4 img {
+  margin-top: 28px;
+  margin-left: 11px;
+  position: absolute;
+}
+
+.form__btnSend {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  width: 100%;
+  border: none;
+  padding: 16px;
+  background-color: #698474;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.bgImg {
+  margin: auto;
+}
+
+.bgImg img {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
 @media only screen and (max-width: 575px) {
   .contact {
     padding-left: 15px;
@@ -150,13 +300,74 @@
   }
   .wrapper__tel {
     grid-area: 1/1;
-    padding-bottom: 240px;
+    padding-bottom: 120px;
+    margin: auto;
   }
   .wrapper__email {
+    margin: auto;
     grid-area: 2/1;
+    padding-bottom: 120px;
   }
   .wrapper__local {
+    margin: auto;
     grid-area: 3/1;
+  }
+  .contact__container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 32% 68%;
+    margin: 80px 0px;
+  }
+  .contact__form {
+    grid-area: 2/1;
+    height: max-content;
+  }
+  .form__label1 {
+    margin-top: 20px;
+    display: block;
+    grid-area: 1/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__label1 input {
+    width: 100%;
+  }
+  .form__label2 {
+    margin-top: 20px;
+    display: block;
+    grid-area: 2/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__label2 input {
+    width: 100%;
+  }
+  .form__label3 {
+    margin-top: 20px;
+    display: block;
+    grid-area: 3/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__label3 input {
+    width: 100%;
+  }
+  .form__label4 {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: block;
+    grid-area: 4/1;
+    grid-column: 1/3;
+    text-align: left;
+  }
+  .form__btnSend {
+    margin-top: 80px;
+  }
+  .bgImg {
+    margin: 0px;
+  }
+  .bgImg img {
+    width: 80%;
   }
 }
 
