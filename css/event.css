@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.eventItems {
+  width: 80%;
+  margin: 125px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventItems__img {
+  border-radius: 35px;
+  width: 280px;
+}
+
+.eventItems__content {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 35px;
+  width: 500px;
+}
+
+.eventItems__content hr {
+  border: 1px solid #678372;
+}
+
+.eventItems__content--title {
+  font-size: 2rem;
+  margin-top: 0;
+  color: #000;
+}
+
+.eventItems__content--info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.eventItems__content--infoLocation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.eventItems__content--infoLocation img {
+  height: 40%;
+  margin: 0 8px;
+  margin-top: 10px;
+}
+
+.eventItems__content--infoCalender {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.eventItems__content--infoCalender img {
+  height: 40%;
+  margin: 0 8px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=event.css.map */
