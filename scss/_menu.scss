@@ -13,7 +13,7 @@ nav {
 
     & li {
         list-style: none;
-        
+
 
 
 
@@ -82,7 +82,7 @@ ul li .active {
 
 @media screen and(max-width:1300px) {
     body {
-        overflow-x: hidden;
+        width: 100%;
     }
 
     .navMenu {
@@ -101,6 +101,7 @@ ul li .active {
 
 @media screen and(max-width:875px) {
     body {
+        width: 100%;
         overflow-x: hidden;
     }
 
@@ -109,20 +110,24 @@ ul li .active {
         right: 0;
         height: 70vh;
         top: 18vh;
-        background-color: rgba(243, 247, 245, 0.6);
+        background-color: rgba(79, 85, 82, 0.6);
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 55%;
+        width: 90%;
         transform: translateX(100%);
         transition: transform 0.8s ease-in;
+
 
         & li {
 
             padding-left: 8%;
+            & a{
+                color: white;
+            }
 
             & a:hover {
-                color: #4E6A68;
+                color: #D0DDD5;
             }
         }
     }
