@@ -1,0 +1,192 @@
+.galerie {
+    margin: auto;
+    width: 80%;
+
+    &__img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img {
+
+            height: 350px;
+            width: 350px;
+            padding: 35px;
+        }
+    }
+
+    &__but {
+        text-align: center;
+        padding-bottom: 30px;
+
+        button {
+            background-color: white;
+            border: 1.5px solid #698474;
+            border-radius: 5px;
+            color: #698474;
+            font-weight: bold;
+            width: 205px;
+            height: 70px;
+            font-size: 20px;
+            padding: 10px;
+            margin: 20px;
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            background-color: #698474;
+            color: white;
+        }
+    }
+
+    &__h1 {
+        color: #d0ddd5;
+        font-size: 100px;
+
+    }
+
+    &__p1 {
+        color: #698474;
+        font-size: 52px;
+        text-align: center;
+    }
+
+
+
+    &__p2 {
+        color: #698474;
+        font-weight: 500;
+        letter-spacing: 10px;
+        text-align: center;
+        font-size: 52px;
+    }
+
+
+}
+
+
+
+
+
+// For Tab 
+// @media only screen and (min-width: 768px) {
+// 	.galerie {
+// 		&__img {
+// 			img {
+
+// 				height: 210px;
+// 				width: 210px;
+// 				padding: 10px
+// 			}
+// 		}
+
+// 		&__p1 {
+
+// 			font-size: 32px;
+// 			text-align: center;
+// 		}
+
+// 		&__h1 {
+// 			font-size: 80px;
+// 		}
+// 	}
+
+
+// }
+
+
+// // For Des
+// @media only screen and (min-width: 1200px) {
+// 	.galerie {
+// 		&__img {
+// 			img {
+
+// 				height: 330px;
+// 				width: 330px;
+// 				padding: 10px
+// 			}
+// 		}
+
+// 		&__p1 {
+
+// 			font-size: 32px;
+// 			text-align: center;
+// 		}
+
+// 		&__h1 {
+// 			font-size: 80px;
+// 		}
+// 	}
+
+
+// }
+
+// @media only screen and (min-width : 375px) {
+// 	.galerie {
+// 		margin: auto;
+// 		width: 95%;
+
+// 		&__img {
+// 			display: flex;
+// 			flex-wrap: wrap;
+// 			justify-content: center;
+
+// 			img {
+
+// 				height: 300px;
+// 				width: 300px;
+// 				padding: 15px;
+// 			}
+// 		}
+
+// 		&__but {
+// 			text-align: center;
+// 			padding-bottom: 10px;
+// 			display: flex;
+// 			justify-content: space-evenly;
+
+
+// 			button {
+// 				background-color: white;
+// 				border: 1.5px solid #698474;
+// 				border-radius: 5px;
+// 				color: #698474;
+// 				font-weight: bold;
+// 				width: 105px;
+// 				height: 40px;
+// 				font-size: 10px;
+// 				padding: 10px;
+// 				text-transform: uppercase;
+// 			}
+
+// 			button:hover {
+// 				background-color: #698474;
+// 				color: white;
+// 			}
+// 		}
+
+// 		&__h1 {
+// 			color: #d0ddd5;
+// 			font-size: 50px;
+
+// 		}
+
+// 		&__p1 {
+// 			color: #698474;
+// 			font-size: 20px;
+// 			text-align: center;
+// 		}
+
+
+
+// 		&__p2 {
+// 			color: #698474;
+// 			font-weight: 500;
+// 			letter-spacing: 10px;
+// 			text-align: center;
+// 			font-size: 32px;
+// 		}
+
+
+// 	}
+// }
